@@ -6,31 +6,28 @@ import createSlug from "../lib/createSlug"
 
 const posts = (await getCollection("blog")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
-const last_posts = posts.slice(0, 3);
+const last_posts = posts;//.slice(0, 3);
 ---
 
 <BaseLayout sideBarActiveItemID="home">
   <div class="pb-12 mt-5">
     <div class="text-xl py-1">Hey there 👋</div>
     <div class="text-5xl font-bold">I'm Alexis Huynh</div>
-    <div class="text-3xl py-3 font-bold">Software Engineer and Entrepreneur</div>
+    <div class="text-3xl py-3 font-bold">Mechanical Engineering Student at MIT</div>
     <div class="py-2">
       <text class="text-lg">
-        This is <b>Astrofy</b> a free and open-source template for your Personal Portfolio Website built with Astro and TailwindCSS.
-        Create in minutes a website with Blog, CV, Project Section, Store and RSS Feed. I hope you find
-        it useful!
+        Welcome to my portfolio! I'm an undergraduate student at MIT studying Mechanical Engineering. 
+        I'm interested in sustainable technology and is currently doing research on hydrogen powertrain systems.
+        I have experience in mechanical design, manufacturing, and project management as seen in the projects below.
       </text>
     </div>
     <div class="mt-8">
-      <a class="btn" href="https://twitter.com/manuelernestog" target="_blank"> Let's connect!</a>
-      <a href="https://github.com/manuelernestog/astrofy" target="_blank" class="btn btn-outline ml-5">
-        Get This template
-      </a>
+      <a class="btn" href="https://www.linkedin.com/in/alexis-huynh-1514841b7" target="_blank"> Let's connect!</a>
     </div>
   </div>
-
+<!--
   <div>
-    <div class="text-3xl w-full font-bold mb-2">My last projects {"</>"}</div>
+    <div class="text-3xl w-full font-bold mb-2"> 🛠️ My projects </div>
   </div>
 
   <HorizontalCard
@@ -55,9 +52,9 @@ const last_posts = posts.slice(0, 3);
     url="#"
     badge="FOSS"
   />
-
+-->
   <div>
-    <div class="text-3xl w-full font-bold mb-5 mt-10">Latest from blog</div>
+    <div class="text-3xl w-full font-bold mb-5 mt-10">🛠️ My projects</div>
   </div>
 
   {
@@ -66,13 +63,16 @@ const last_posts = posts.slice(0, 3);
         <HorizontalCard
           title={post.data.title}
           img={post.data.heroImage}
+          dateRange={post.data.dateRange}
           desc={post.data.description}
           url={"/blog/" + createSlug(post.data.title, post.slug)}
           target="_self"
           badge={post.data.badge}
+          tags={post.data.tags}
         />
         <div class="divider my-0" />
       </>
     ))
   }
+
 </BaseLayout>
