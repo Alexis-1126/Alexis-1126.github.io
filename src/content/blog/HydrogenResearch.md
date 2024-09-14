@@ -23,7 +23,7 @@ We found that the strength of the aluminum-to-carbon fiber joint was of the same
 
 <h3>Hydraulic Testing Rig</h3>
 
-My next project was to assemble a hydraulic testing rig. While most of the parts were already ordered and the flow loop designed, there was a lot of preparation to be done on the electrical side. The flow loop contained five pressure sensors and three control valves which I wired-up to an NI cDAQ. We then connected a switch to each valve so that we could easily open them and relieve pressure in the lines. Afterwards, I made a test program in LabView that displayed the pressure values from each pressure sensor (it automatically converted the current signal from the sensor to pressure) and had button controls for opening and closing each valve.
+My next project was to assemble a hydraulic testing rig. While most of the parts were already ordered and the flow loop designed, there was a lot of preparation to be done on the electrical side. The flow loop contained five pressure sensors and three control valves which I wired to an NI cDAQ. We then connected a switch to each valve so that we could easily open them and relieve pressure in the lines. After, I made a test program in LabView that displayed the pressure values from each pressure sensor (it automatically converted the current signal from the sensor to pressure) and had button controls for opening and closing each valve.
 
 <figure>
     <img src="/LabViewSetUp.png" width="80%" />
