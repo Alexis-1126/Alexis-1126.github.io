@@ -8,25 +8,45 @@ badge: "MIT Class"
 tags: ["Precision Manufacturing","HTM Model","Measurement"]
 ---
 
-2.72 - Elements of Mechanical Design is a class at MIT taught by Professor Martin Culpepper that focuses on modeling, design, integration, and best practices for use of machine elements such as bearings, bolts, belts, flexures, and gears. The class culminates in a final project where teams of students build a desktop lathe.
+2.72 - Elements of Mechanical Design is a class at MIT taught by Professor Martin Culpepper that focuses on modeling, design, integration, and best practices for using machine elements such as bearings, bolts, belts, flexures, and gears. The class culminates in a final project where teams of students build a desktop lathe.
 
 <h3>Functional Requirements</h3>
 
-Our team began by defining functional requirements for our lathe. Our main constraints were that the lathe must be repeatable to 50 microns and we had a budget of $200. We were also provided a motor that had a maximum power of 337 W. Given these parameters, we defined functional requirements for the efficiency, stiffness, temperature sensitivity, and dimensions of the lathe. We further broke down these functional requirements into requirements for each system on the lathe (ex. spindle, carriage, etc.). These system requirements acted as checkpoints to ensure we were on track to meet our overall functional requirements.
+Our team began by defining functional requirements for our lathe. Our main constraints were that the lathe must be repeatable to 50 microns and we had a budget of $200. We were also provided a motor with a a maximum power of 337 W. Given these parameters, we defined functional requirements for the efficiency, stiffness, temperature sensitivity, and dimensions of the lathe. We further broke down these functional requirements into requirements for each system on the lathe (ex. spindle, carriage, etc.). These system requirements acted as checkpoints to ensure we were on track to meet our overall functional requirements.
 
 <h3>Spindle and Cross Slide Design</h3>
 
-We chose an indirect bearing mount architecture for supporting the spindle. We had a slip fit between the spindle and bearing in the back and press fit with the bearing in the front. This allowed for axial thermal expension of the spindle while still constraining the shaft. We applied preload to the bearings with a nut and belleville washer.
+We chose an indirect bearing mount architecture to support the spindle. We had a slip fit between the spindle and bearing in the back and a press fit with the bearing in the front. This allowed for axial thermal expansion of the spindle while constraining the shaft. We applied preload to the bearings with a nut and Belleville washer.
 
-To determine the preload value, I compared it's effect on system stiffness, bearing life, and efficiency. Increasing the preload increased the stiffness and decreased the bearing life and efficiency of the lathe. Thus, the minimum preload was limited by our stiffness requirement and the maximum preload was limited by the bearing life and efficiency requirements.
+<figure>
+    <img src="/SpindleArchitecture.png" width="70%" />
+    <figcaption>Spindle Architecture</figcaption>
+</figure>
+
+To determine the preload value, I compared its effect on system stiffness, bearing life, and efficiency. Increasing the preload increased the stiffness and decreased the bearing life and efficiency of the lathe. Thus, the minimum preload was limited by our stiffness requirement and the maximum preload was limited by the bearing life and efficiency requirements.
+
+<figure>
+    <img src="/PreloadSelection.png" width="70%" />
+    <figcaption>Spindle Preload Selection</figcaption>
+</figure>
 
 Once we assembled the spindle, we took measurements to verify that it met our functional requirements which it did.
 
-Our cross slide featured a dovetail base actuated by a lead screw. I helped calculate the preload of the gib between the sliding dovetails, leadscrew, and thrust bearing supporting the leadscrew. Similar to the spindle design, I compared the preload's effect on stiffness, efficiency, and lifetime to get a range of values that will satisfy our requirements.
+Our cross slide featured a dovetail base actuated by a lead screw. I helped calculate the preload of the gib between the sliding dovetails, leadscrew, and thrust bearing supporting the leadscrew. Similarly, I compared the preload's effect on stiffness, efficiency, and lifetime to get a range of values that will satisfy our requirements.
+
+<figure>
+    <img src="/XSlide.png" width="70%" />
+    <figcaption>Cross Slilde Architecture</figcaption>
+</figure>
 
 <h3>Homogenous Transfer Matrix (HTM) Model</h3>
 
-To get a sense of how much error we expect our lathe to have, I helped create an HTM Model of the stiffness and deflection of the entire lathe. By approximating the stiffness of each component in the lathe (and using stiffness values we measured), I was able to calculate the total deflection of a part in the spindle under cutting forces. This helped inform us if a specific part was not stiff enough, and we did indeed find out that our tool holder contributed a signficant amount of error to our lathe. We then made modifications to the tool holder's design to increase its stiffness and thus, decrease our lathe's total error.
+To estimate how much error we expect our lathe to have, I created an HTM Model of the stiffness and deflection of the entire lathe. By approximating and measuring the stiffness of each component in the lathe, I calculated the total deflection of a part in the spindle under cutting forces. This informed us if a specific part was not stiff enough. We discovered that our tool holder contributed significantly to our lathe's total error. We then modified the tool holder's design to increase its stiffness and thus, decrease our lathe's total error.
+
+<figure>
+    <img src="/HTM.png" width="50%" />
+    <figcaption>HTM Structural Loop</figcaption>
+</figure>
 
 <h3>Competition and Wrap Up</h3>
 
@@ -94,10 +114,25 @@ When we finished our lathe, we used a Coordinate Measuring Machine (CMM) to meas
     </tr>
 </table>
 
-We then participated in a class competition to test the MRR and accuracy of our lathes turning aluminum. We came in 3<sup>rd</sup> place in the MRR race with an MRR of 0.00975 in<sup>3</sup>/s and 2<sup>nd</sup> place in the accuracy race with en error of 0.00124" out of six teams. 
+We then participated in a class competition to test the MRR and accuracy of our lathes turning aluminum. We came in 3<sup>rd</sup> place in the MRR race with an MRR of 0.00975 in<sup>3</sup>/s and 2<sup>nd</sup> place in the accuracy race with an error of 0.00124" out of six teams. 
 
-Finally, our lathe experienced a drop test and sledgehammer test to test it's durability and ability to remain repeatable within 50 microns. It was dropped approximately 1 m from the ground and the spindle was hit axially with a sledgehammer. Our lathe passed both these tests.
+Finally, our lathe experienced a drop test and sledgehammer test to test its durability and ability to remain repeatable within 50 microns. It was dropped approximately 1 m from the ground and the spindle was hit axially with a sledgehammer. Our lathe passed both these tests.
+
+<figure>
+    <video src="/DropTest.mp4" width="50%" controls></video>
+    <figcaption>Drop Test</figcaption>
+</figure>
+
+<figure>
+    <video src="/SledgehammerTest.mp4" width="50%" controls></video>
+    <figcaption>Sledgehammer Test</figcaption>
+</figure>
 
 <h3>Learnings</h3>
 
-This class was a great learning experience to make precision machines. I learned the importance of establishing and validating functional requirements with calculations and measurements. I also learned various analytical skills like calculating design tradeoffs between lifetime, efficiency, compliance, and strength, and creating HTM models to adjust design parameters. In addition, I practiced important engineering skills like machining, formulating process plans, and communicating.
+This class was a great learning experience making precision machines. I learned the importance of establishing and validating functional requirements with calculations and measurements. I also developed a range of analytical skills like calculating design tradeoffs between lifetime, efficiency, compliance, and strength and creating HTM models to adjust design parameters. Finally, I practiced important engineering skills like precision machining, formulating process plans, and communicating.
+
+<figure>
+    <video src="/LatheRunning.mov" width="50%" controls></video>
+    <figcaption>First Time Turning a Part on the Lathe</figcaption>
+</figure>
