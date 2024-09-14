@@ -1,8 +1,8 @@
 ---
 title: "Rivian Internship"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+description: "Made an Arduino module that injects CAN signals to simulate brakes being pressed on a lighting rig. Created a python software that automated the creation of test cases in Jama."
 dateRange: "May 2023 - August 2023"
-pubDate: "Sep 12 2022"
+pubDate: "May 2023"
 heroImage: "/RivianCar.png"
 badge: "Professional Experience"
 tags: ["CAN Protocol","Arduino", "C++", "Python","CANalyzer"]
@@ -11,6 +11,7 @@ tags: ["CAN Protocol","Arduino", "C++", "Python","CANalyzer"]
 Interning at Rivian under the Body Engineering team was a great interdisciplinary experience. I took on challenging projects that focused more on the intersection of mechanical and electrical design and learned new concepts and skills like CAN protocol and using C++ / Python.
 
 <h3>Lighting Rig Project</h3>
+
 The lighting rig is a set up of all the lighting and electrical hardware components for a Rivian car. It's typically used for performing tests and verifying software and hardware changes. For many tests, the brake lights need to be activated as a prerequisite, especially during the process of “turning on the car”. My task was to create a physical switch that simulated the brakes being pressed on the rig.
 
 To start, I familiarized myself with the rig’s hardware by talking with the manufacturers and learning about CAN protocol. I then learned how to inject CAN signals using DBC files and CANalyzer. Searching through Rivian’s confluence pages, I then found the network architecture for the lighting rig’s specific model and practiced injecting various CAN signals like the left and right blinkers. I had a lot of trouble however finding the specific signals to send to simulate the brake lights. This was because I wanted to inject signals from the source controller itself. That is, I wanted to simulate the brake pedal being pressed and not just the light turning on. After looking through many pages of Rivian documentation, I discovered that the brake lights had a checksum and CRC counter that needed to be simulated correctly using specific protocols.

@@ -1,8 +1,8 @@
 ---
 title: "Polaris Internship"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+description: "Documented procedures for satisfying EPA regulations, designed a cooling system for engine dynos, and designed and manufactured engine transportation modules."
 dateRange: "May 2022 - August 2022"
-pubDate: "September 12, 2022"
+pubDate: "May 2022"
 heroImage: "/Polaris.png"
 badge: "Professional Experience"
 tags: ["Documentation","3D Printing","Creo"]

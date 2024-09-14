@@ -1,8 +1,8 @@
 ---
 title: "Hydrogen Research"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+description: "Manufactured and tested endcaps for hydrogen pressure vessels and assembled a hydrauic testing rig."
 dateRange: "May 2024 - June 2024"
-pubDate: "Sep 12 2022"
+pubDate: "May 2024"
 heroImage: "/HydrogenResearch.png"
 badge: "Academic Research"
 tags: ["LABView","Instron Testing", "SolidWorks","Lasercutting"]

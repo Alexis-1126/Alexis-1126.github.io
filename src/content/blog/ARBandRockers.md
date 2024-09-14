@@ -2,7 +2,7 @@
 title: "Anti-Roll Bar and Rockers Subsystem Lead"
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 dateRange: "August 2021 - June 2022"
-pubDate: "August 5, 2021"
+pubDate: "August 2021"
 heroImage: "/Tilt Test.png"
 badge: "Project Team"
 tags: ["NX", "NX Motion Analysis", "NX Nastran FEA","DFM DFA","CNC Machining", "Waterjet"]

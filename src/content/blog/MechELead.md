@@ -1,11 +1,11 @@
 ---
 title: "MIT Motorsports Mechanical Lead"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+description: "Led a student-project team to build an electric racecar from scratch for the 2023 Formula SAE Competition."
 dateRange: "June 2022 - June 2023"
-pubDate: "Sep 11 2024"
+pubDate: "June 2023"
 heroImage: "/Car.png"
 badge: "Project Team"
-tags: ["Project Mangement","High Voltage Battery","System Packaging","Mechanical-Electrical Integration"]
+tags: ["Project Mangement","Mechanical-Electrical Integration", "High-Voltage Battery"]
 ---
 
 For the 2023-2024 competition season, I joined the team's Executive Board as Mechanical Lead. I was responsible for creating and upholding a team timeline, communicating with the other Executive Members, facilitating subsystem integraiton, managing team members, and preparing for competition. Over the course of the year, I streamlined the new member onboarding program and increased the team's size by 171%, enforced procedures to improve the documentation of design and build mistakes, led the team to successfully pass Mechanical and Accumulator inspection, and competed in a dynamic event at competition for the first time since 2020 (when our team was impacted by Coid).

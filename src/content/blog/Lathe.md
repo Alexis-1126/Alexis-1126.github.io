@@ -1,11 +1,11 @@
 ---
 title: "2.72 Elements of Mechanical Design"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+description: "Designed and manufactured a desktop lathe."
 dateRange: "February 2024 - June 2024"
-pubDate: "February 1, 2024"
+pubDate: "February 2024"
 heroImage: "/Lathe.png"
 badge: "MIT Class"
-tags: ["Precision Manufacturing","HTM Model","Measurement & Analysis"]
+tags: ["Precision Manufacturing","HTM Model","Measurement"]
 ---
 
 2.72 - Elements of Mechanical Design is a class at MIT taught by Professor Martin Culpepper that focuses on modeling, design, integration, and best practices for use of machine elements such as bearings, bolts, belts, flexures, and gears. The class culminates in a final project where teams of students build a desktop lathe.
