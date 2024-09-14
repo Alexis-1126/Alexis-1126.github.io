@@ -15,7 +15,12 @@ The lighting rig is a set up of all the lighting and electrical hardware compone
 
 To start, I familiarized myself with the rig’s hardware by talking with the manufacturers and learning about CAN protocol. I then learned how to inject CAN signals using DBC files and CANalyzer. Searching through Rivian’s confluence pages, I then found the network architecture for the lighting rig’s specific model and practiced injecting various CAN signals like the left and right blinkers. I had a lot of trouble however finding the specific signals to send to simulate the brake lights. This was because I wanted to inject signals from the source controller itself. That is, I wanted to simulate the brake pedal being pressed and not just the light turning on. After looking through many pages of Rivian documentation, I discovered that the brake lights had a checksum and CRC counter that needed to be simulated correctly using specific protocols.
 
-To physically inject the CAN signal, I connected an Arduino nano to an MCP2515 chip and transceiver pcb. I then wrote the software in C++ to calculate and send the CRC plus other signals. Finally, I designed and 3D printed an enclosure for the pcbs so that it could be easily used on the lighting rig. After some debugging, the physical switch worked and was used to more efficiently conduct lighting rig tests. Before leaving, I documented how to make the switch and modify the code to send other CAN signals.
+To physically inject the CAN signal, I connected an Arduino nano to an MCP2515 chip and transceiver pcb. I then wrote software in C++ to calculate and send the CRC plus other signals. Finally, I designed and 3D printed an enclosure for the pcbs so that it could be easily used on the lighting rig. After some debugging, the physical switch worked and was used to more efficiently conduct lighting rig tests. Before leaving, I documented how to make the switch and modify the code to send other CAN signals.
+
+<figure>
+    <img src="/BrakeLightSwitch.png" width="50%" />
+    <figcaption>3D Printed Case for Sending CAN Signals</figcaption>
+</figure>
 
 <h3>Automating Jama Test Cases</h3>
 

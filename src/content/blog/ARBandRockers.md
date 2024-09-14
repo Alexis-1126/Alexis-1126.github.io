@@ -25,7 +25,7 @@ I used a top-down modeling approach in NX for designing the subsystems. I commun
 Once the designs were finalized, I created manufacturing plans. For the rockers, I used both the waterjet and 3 axis CNC machine. I waterjet the outside triangular shape and milled the interior features, holding the triangular stock in a custom, aluminum soft-jaw. For the ARBs, I waterjet the adjustable linking plate. I, unfortunately, didn't have time to machine the torsional bar, since I was placed on another project at the end of the year.
 
 <figure>
-    <img src="/FrontRockers.png" width="80%" />
+    <img src="/FrontRockers.png" width="50%" />
     <figcaption>Front Rockers (clamshell design)</figcaption>
 </figure>
 
