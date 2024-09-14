@@ -1,7 +1,7 @@
 ---
 title: "Polaris Internship"
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-dateRange: "August 2021 - June 2022"
+dateRange: "May 2022 - August 2022"
 pubDate: "September 12, 2022"
 heroImage: "/Polaris.png"
 badge: "Professional Experience"

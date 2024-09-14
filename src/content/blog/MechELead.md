@@ -1,7 +1,7 @@
 ---
-title: "MY23 Mechanical Lead"
+title: "MIT Motorsports Mechanical Lead"
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-dateRange: "August 2021 - June 2022"
+dateRange: "June 2022 - June 2023"
 pubDate: "Sep 11 2024"
 heroImage: "/Car.png"
 badge: "Project Team"

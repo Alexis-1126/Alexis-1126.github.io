@@ -1,8 +1,8 @@
 ---
 title: "2.72 Elements of Mechanical Design"
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-dateRange: "August 2021 - June 2022"
-pubDate: "Sep 12 2022"
+dateRange: "February 2024 - June 2024"
+pubDate: "February 1, 2024"
 heroImage: "/Lathe.png"
 badge: "MIT Class"
 tags: ["Precision Manufacturing","HTM Model","Measurement & Analysis"]

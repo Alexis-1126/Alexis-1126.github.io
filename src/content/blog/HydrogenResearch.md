@@ -1,7 +1,7 @@
 ---
 title: "Hydrogen Research"
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-dateRange: "August 2021 - June 2022"
+dateRange: "May 2024 - June 2024"
 pubDate: "Sep 12 2022"
 heroImage: "/HydrogenResearch.png"
 badge: "Academic Research"

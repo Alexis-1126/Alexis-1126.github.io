@@ -1,7 +1,7 @@
 ---
 title: "Rivian Internship"
 description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-dateRange: "August 2021 - June 2022"
+dateRange: "May 2023 - August 2023"
 pubDate: "Sep 12 2022"
 heroImage: "/RivianCar.png"
 badge: "Professional Experience"
