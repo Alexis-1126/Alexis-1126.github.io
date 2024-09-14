@@ -5,7 +5,7 @@ dateRange: "May 2023 - August 2023"
 pubDate: "May 2023"
 heroImage: "/RivianCar.png"
 badge: "Professional Experience"
-tags: ["CAN Protocol","Arduino / C++", "Python","CANalyzer"]
+tags: ["CAN Protocol","Arduino", "Python","CANalyzer"]
 ---
 
 Interning at Rivian under the Body Engineering team was a great interdisciplinary experience. I took on challenging projects that focused more on the intersection of mechanical and electrical design and learned new concepts and skills like CAN protocol and C++ / Python.
