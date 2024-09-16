@@ -1,6 +1,6 @@
 ---
 title: "Anti-Roll Bar and Rockers Subsystem Lead"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+description: "Designed and manufactured a racecar's anti-roll bars and rockers (parts of the suspension system)."
 dateRange: "August 2021 - June 2022"
 pubDate: "August 2021"
 heroImage: "/Tilt Test.png"
