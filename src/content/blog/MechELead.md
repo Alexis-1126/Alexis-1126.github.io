@@ -8,7 +8,7 @@ badge: "Project Team"
 tags: ["Project Mangement","Mechanical-Electrical Integration", "High-Voltage Battery"]
 ---
 
-For the 2023-2024 competition season, I joined the team's Executive Board as Mechanical Lead. I was responsible for creating and upholding a team timeline, communicating with the other Executive Members, facilitating subsystem integration, managing team members, and preparing for competition. Over the year, I streamlined the new member onboarding program and increased the team's size by 171%, enforced procedures to improve the documentation of design and build mistakes, led the team to pass Mechanical and Accumulator inspection, and competed in a dynamic event at the competition for the first time since 2020 (when our team was impacted by Coid).
+For the 2023-2024 competition season, I joined the team's Executive Board as Mechanical Lead. I was responsible for creating and upholding a team timeline, communicating with the other Executive Members, facilitating subsystem integration, managing team members, and preparing for competition. Over the year, I streamlined the new member onboarding program and increased the team's size by 171%, enforced procedures to improve the documentation of design and build mistakes, led the team to pass Mechanical and Accumulator inspection, and competed in a dynamic event at the competition for the first time since 2019 (when our team was impacted by Covid).
 
 <h3>Project Management</h3>
 
@@ -54,7 +54,7 @@ In 2023, we competed in the Formula Hybrid + Electric (H+E) and Formula SAE comp
 
 At the competition, our biggest challenge came during Mechanical Inspection where we found that our headrest tube thickness was too small. The only thing we could do was cut out the tube and replace it with a thicker one. With only one more day of Mechanical Inspection, we had to quickly organize the team to implement this fix. In just a couple of hours, we found a steel tube of the right thickness at a nearby store, cut and ground out the old tube, set up welding tools in our pit area, cut and cope the new tube to fit in place, drive our welder from school to the site, disassembled all electrical components on the car, and weld the tube with time to continue mechanical inspection that day. We passed the inspection the morning of the next day. In the end, we passed all technical inspections except for the brake test. While we didn't compete in any dynamic events, participating in Formula H+E was integral to getting the team ready for the FSAE competition.
 
-At the FSAE competition, we passed all technical inspections and competed in a dynamic event for the first time since 2020! It was an exciting accomplishment for the team.
+At the FSAE competition, we passed all technical inspections and competed in a dynamic event for the first time since 2019! It was an exciting accomplishment for the team.
 
 <figure>
     <video src="/CarTest.mp4" width="80%" controls></video>
