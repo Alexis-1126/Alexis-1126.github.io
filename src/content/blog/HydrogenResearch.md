@@ -1,6 +1,6 @@
 ---
 title: "Hydrogen Research"
-description: "Manufactured and tested endcaps for hydrogen pressure vessels and assembled a hydrauic testing rig."
+description: "Manufactured and tested endcaps for hydrogen pressure vessels and assembled a hydraulic testing rig."
 dateRange: "May 2024 - June 2024"
 pubDate: "May 2024"
 heroImage: "/HydrogenResearch.png"
